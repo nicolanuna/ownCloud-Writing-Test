@@ -11,7 +11,8 @@ Table 1: Recommended Environment
 | Operating system | Ubuntu 18.04 LTS |
 | Database | MariaDB 10+ |
 | Web server | Apache 2.4 with [prefork and mod_php](https://doc.owncloud.org/server/10.4/admin_manual/installation/manual_installation.html#multi-processing-module-mpm) |
-| PHP runtime | 7.3 |   
+| PHP runtime | 7.3 |  
+
 Table 2: Other Supported Environments  
 
 | Platform  | Options |
