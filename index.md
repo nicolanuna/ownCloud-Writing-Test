@@ -6,16 +6,16 @@ ownCloud recommends the following software requirements for optimum performance,
 ## Environment
 Table 1: Recommended Environment  
 
-| Platform  | Options |
+| *Platform*  | *Options* |
 | --- | ----------- |
 | Operating system | Ubuntu 18.04 LTS |
 | Database | MariaDB 10+ |
 | Web server | Apache 2.4 with [prefork and mod_php](https://doc.owncloud.org/server/10.4/admin_manual/installation/manual_installation.html#multi-processing-module-mpm) |
-| PHP runtime | 7.3 |  
+| PHP runtime | 7.3 |   
 
 Table 2: Other Supported Environments  
 
-| Platform  | Options |
+| *Platform*  | *Options* |
 | --- | ----------- |
 | Operating system | Debian 9 and 10 |
 |  | Fedora 30 and 31 |
