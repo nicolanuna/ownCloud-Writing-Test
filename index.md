@@ -17,9 +17,9 @@ Table 2: Other Supported Environments
 | **Platform**  | **Options** |
 | :------------- | :----------- |
 | Operating system | Debian 9 and 10 |
-|  | Fedora 30 and 31 |
-|  | Red Hat Enterprise Linux/Centos 7.5 and 8 |
-|  | SUSE Linux Enterprise Server 12 with SP4 and 15 |
+|  Fedora 30 and 31 |
+|  Red Hat Enterprise Linux/Centos 7.5 and 8 |
+|  SUSE Linux Enterprise Server 12 with SP4 and 15 |
 |  | Ubuntu 16.04 and 18.04 |
 |  | openSUSE Leap 42.3 and 15 |
 | Database | MySQL 8+ or MariaDB 10+; recommended |
