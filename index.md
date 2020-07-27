@@ -28,7 +28,8 @@ Table 2: Other Supported Environments
 |  | PostgreSQL 9 and 10 |
 |  | SQLite; not for production |
 | Web server | Apache 2.4 with prefork and mod_php |
-| PHP runtime | 7.1, 7.2, and 7.3 |   
+| PHP runtime | 7.1, 7.2, and 7.3 |  
+
 **Note**: For Linux distributions, ownCloud supports the latest two versions for each platform and the previous LTS version. 
 ## Hypervisors   
 * Hyper-V   
