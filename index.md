@@ -6,7 +6,7 @@ ownCloud recommends the following software requirements for optimum performance,
 ## Environment
 Table 1: Recommended Environment  
 
-| **Platform**  | **Options** |
+| **Platform** | **Options** |
 | :------ | :----------- |
 | Operating system | Ubuntu 18.04 LTS |
 | Database | MariaDB 10+ |
