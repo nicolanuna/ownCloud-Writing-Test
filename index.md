@@ -17,9 +17,9 @@ Table 2: Other Supported Environments
 | **Platform**  | **Options** |
 | :------------- | :----------- |
 | Operating system | Debian 9 and 10 |
-|  Fedora 30 and 31 |
-|  Red Hat Enterprise Linux/Centos 7.5 and 8 |
-|  SUSE Linux Enterprise Server 12 with SP4 and 15 |
+|  |Fedora 30 and 31 |
+|  |Red Hat Enterprise Linux/Centos 7.5 and 8 |
+|  |SUSE Linux Enterprise Server 12 with SP4 and 15 |
 |  | Ubuntu 16.04 and 18.04 |
 |  | openSUSE Leap 42.3 and 15 |
 | Database | MySQL 8+ or MariaDB 10+; recommended |
@@ -121,7 +121,7 @@ ln -s /etc/apache2/sites-available/owncloud.conf /etc/apache2/sites-enabled/ownc
 **Note**: To use the OAuth2 app, install and enable the `mod_headers` module.
 2. Disable any server-configured authentication for ownCloud. If you turn on authentication on a parent folder, you can disable the authentication specifically for the ownCloud entry. After the Configuration file, in the <Directory section,  enter `Satisfy Any`. 
 3. When you use SSL, take note of the ServerName. Specify a ServerName in the server configuration and in the CommonName field of the certificate. To enable access to your ownCloud through the internet, set both to the domain that you want to access your ownCloud server. 
-4. Restart Apache with `service apache2 restart`.
+4. Restart Apache with `service apache2 restart`.    
 **Note:** If you run ownCloud in a sub-directory and want to use CalDAV or CardDAV clients, configure the correct Service Discovery URLs.
 ## Configuring Apache Mod_Unique_Id
 
