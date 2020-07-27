@@ -11,12 +11,11 @@ Table 1: Recommended Environment
 | Operating system | Ubuntu 18.04 LTS |
 | Database | MariaDB 10+ |
 | Web server | Apache 2.4 with [prefork and mod_php](https://doc.owncloud.org/server/10.4/admin_manual/installation/manual_installation.html#multi-processing-module-mpm) |
-| PHP runtime | 7.3 |   
-
+| PHP runtime | 7.3 |    
 Table 2: Other Supported Environments  
 
 | **Platform**  | **Options** |
-| :--- | :----------- |
+| :------------- | :----------- |
 | Operating system | Debian 9 and 10 |
 |  | Fedora 30 and 31 |
 |  | Red Hat Enterprise Linux/Centos 7.5 and 8 |
@@ -28,13 +27,13 @@ Table 2: Other Supported Environments
 |  | PostgreSQL 9 and 10 |
 |  | SQLite; not for production |
 | Web server | Apache 2.4 with prefork and mod_php |
-| PHP runtime | 7.1, 7.2, and 7.3 |   
+| PHP runtime | 7.1, 7.2, and 7.3 |    
 **Note**: For Linux distributions, ownCloud supports the latest two versions for each platform and the previous LTS version. 
 ## Hypervisors   
 * Hyper-V   
 * VMware ESX   
 * Xen   
-* KVM   
+* KVM    
 ## Desktop Sync Client   
 ownCloud recommends that you use the newest sync client with the latest server release. The latest stable client supports the following platforms:   
 * Linux
@@ -92,7 +91,8 @@ where you replace `/path/to/webserver/document-root` with the document root of y
 # Configuring the Web server
 The following procedures explain how to configure the web server with your system.
 ## Configuring Apache
-1. For Debian and Ubuntu, create an `/etc/apache2/sites-available/owncloud.conf` file and enter the following code, where you replace the Directory and other file paths with your file paths:   
+1. For Debian and Ubuntu, create an `/etc/apache2/sites-available/owncloud.conf` file and enter the following code, where you replace the Directory and other file paths with your file paths:    
+
 ``` 
 Alias /owncloud "/var/www/owncloud/"
 <Directory /var/www/owncloud/>
