@@ -4,14 +4,16 @@
 # Software Requirements
 ownCloud recommends the following software requirements for optimum performance, stability, support, and functionality. For more information, see [Deployment Considerations](https://doc.owncloud.org/server/10.4/admin_manual/installation/deployment_considerations) and [Deployment Recommendations](https://doc.owncloud.org/server/10.4/admin_manual/installation/deployment_recommendations.html).
 ## Environment
-Table 1: Recommended Environment
+Table 1: Recommended Environment  
+
 | Platform  | Options |
 | --- | ----------- |
 | Operating system | Ubuntu 18.04 LTS |
 | Database | MariaDB 10+ |
 | Web server | Apache 2.4 with [prefork and mod_php](https://doc.owncloud.org/server/10.4/admin_manual/installation/manual_installation.html#multi-processing-module-mpm) |
 | PHP runtime | 7.3 |   
-Table 2: Other Supported Environments   
+Table 2: Other Supported Environments  
+
 | Platform  | Options |
 | --- | ----------- |
 | Operating system | Debian 9 and 10 |
